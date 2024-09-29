@@ -40,8 +40,6 @@ export default {
     income: 0,
     lastId: 2,
     sliders: [
-      { id: 1, title: "Магазин", limited: false },
-      { id: 2, title: "Собака", limited: false },
     ],
     values: {}
   }),
