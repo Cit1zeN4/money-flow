@@ -71,6 +71,9 @@ export default {
     add(name) {
       this.sliders.push({ id: ++this.lastId, title: name, limited: false })
     }
+  },
+  metaInfo: {
+    title: "money-flow"
   }
 }
 </script>
