@@ -60,7 +60,7 @@ export default {
     },
     remove(id) {
       let index = this.sliders.map(x => {
-        return x.Id;
+        return x.id;
       }).indexOf(id);
 
       this.values[id] = 0;
